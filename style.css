@@ -17,6 +17,10 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #fff;
+
+  /* Tipografia */
+  --fuente-principal: "DM Sans", sans-serif;
+  --fuente-secundaria: "Inter", sans-serif;
 }
 
 * {
