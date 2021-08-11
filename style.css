@@ -405,20 +405,20 @@ main {
   margin: 50px auto 0;
   padding: 0 15px;
   background-color: var(--just-white);
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0px 4px 8px 0px #59491e29;
 }
 .recomendado {
   position: absolute;
+  width: 120px;
+  height: 31px;
+  border-radius: 8px;
+  left: calc(50% - 60px);
   top: -15px;
-  left: calc(50% - 50px);
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.4rem;
-  width: 101px;
-  height: 31px;
-  border-radius: 8px;
-  padding: 8px;
+  padding: 6px;
   background-color: var(--bitcoin-orange);
   color: var(--just-white);
 }
