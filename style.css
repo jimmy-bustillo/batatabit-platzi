@@ -398,7 +398,7 @@ main {
 
 .plans-container--card {
   position: relative;
-  width: 70%;
+  width: 60%;
   min-width: 230px;
   max-width: 300px;
   height: 240px;
@@ -412,14 +412,14 @@ main {
   position: absolute;
   width: 120px;
   height: 31px;
-  border-radius: 8px;
-  left: calc(50% - 60px);
+  padding: 6px;
   top: -15px;
+  left: calc(50% - 60px);
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.4rem;
-  padding: 6px;
   background-color: var(--bitcoin-orange);
+  border-radius: 8px;
   color: var(--just-white);
 }
 .plan-info-container {
@@ -429,11 +429,14 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
+  color: black;
 }
 .plan-card--price {
+  padding: 5px 0;
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 6.3rem;
+  color: black;
 }
 .plan-card--price span {
   font-size: 1.2rem;
@@ -449,18 +452,23 @@ main {
 .plan-card--call {
   width: 150px;
   height: 48px;
+  margin-top: 12px;
+  font-family: "DM Sans", sans-serif;
+  border: solid 2px #f7931a;
+  background-color: #faf8f7;
   padding: 12px 16px;
   border-radius: 4px;
-  border: solid 2px #f7931a;
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: bold;
-  margin-top: 12px;
+  color: var(--black);
 }
 
-.card-call--arrow {
-  width: 24px;
-  height: 24px;
+.plan-card--call span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
   background-image: url("./assets/icons/arrow-right.svg");
-  color: #f7931a;
+  vertical-align: text-bottom;
+  margin-left: 5px;
 }
